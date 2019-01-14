@@ -1,0 +1,53 @@
+.example {
+    font-size: 50px;
+    color: papayawhip;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
+    position: relative;
+    margin: 0;
+    line-height: 1.65;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    min-width: 320px;
+    direction: ltr;
+    font-feature-settings: 'kern';
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    min-height: 100%;
+    padding: 0;
+}
+html,
+body {
+    background-color: #fff;
+    color: #111;
+}
+body > div:first-child,
+#__next {
+    min-height: 100vh;
+}
+/* Post-CSS */
+/* 
+:root {
+  --some-color: red;
+}
+
+.example {
+  color: var(--some-color);
+} 
+
+*/
